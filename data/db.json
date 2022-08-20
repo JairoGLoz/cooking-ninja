@@ -57,6 +57,35 @@
       "method": "asdf",
       "cookingTime": "2 minutes",
       "id": "35GGwTB"
+    },
+    {
+      "title": "a",
+      "ingredients": [
+        "a"
+      ],
+      "method": "asdf",
+      "cookingTime": "2 minutes",
+      "id": "_VzsArn"
+    },
+    {
+      "title": "asdf",
+      "ingredients": [
+        "asdf"
+      ],
+      "method": "asd",
+      "cookingTime": "2 minutes",
+      "id": "t5jgaXI"
+    },
+    {
+      "title": "New recipe",
+      "ingredients": [
+        "onion",
+        "cucumber",
+        "spinach"
+      ],
+      "method": "You have to mix everything up.",
+      "cookingTime": "12 minutes",
+      "id": "ehHDwCy"
     }
   ]
 }

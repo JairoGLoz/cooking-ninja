@@ -17,6 +17,9 @@ export const useFetch = (url, method = "GET") => {
     }
 
     useEffect(() => {
+
+        console.log("using useEffect")
+
         const controller = new AbortController()
 
         const fetchData = async (fetchOptions) => {
