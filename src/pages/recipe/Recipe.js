@@ -3,6 +3,7 @@ import './Recipe.css'
 import {Link, useHistory, useParams} from "react-router-dom";
 import {useFetch} from "../../hooks/useFetch";
 import {useEffect} from "react";
+import {useTheme} from "../../hooks/useTheme";
 
 export default function Recipe() {
 
@@ -13,6 +14,8 @@ export default function Recipe() {
 
     const history = useHistory();
 
+    const {mode} = useTheme();
+
     useEffect(() => {
         if (error) {
             setTimeout(() => {
@@ -22,7 +25,7 @@ export default function Recipe() {
     }, [error, history])
 
     return (
-        <div className="recipe">
+        <div className={`recipe ${mode}`}>
             {isPending && <p className="loading">Loading...</p>}
             {error && <p className="error">{error}</p>}
             {recipe && (

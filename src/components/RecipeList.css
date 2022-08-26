@@ -37,9 +37,20 @@
     display: block;
     background: #e2e2e2;
     font-size: 0.9em;
+    width: 100px;
     text-align: center;
     width: 120px;
     padding: 8px;
     border-radius: 4px;
     margin: 20px auto 0;
+}
+
+/* dark mode */
+.recipe-list .card.dark {
+    background: #555;
+}
+.recipe-list .card.dark p,
+.recipe-list .card.dark h3,
+.recipe-list .card.dark div {
+    color: #e4e4e4;
 }
